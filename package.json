@@ -13,6 +13,7 @@
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-app-rewire-alias": "^1.1.7",
+    "react-app-rewired": "^2.2.1",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "sass": "^1.63.6",
