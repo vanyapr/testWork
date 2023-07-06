@@ -1,0 +1,78 @@
+{
+  "extends": ["next/core-web-vitals", "airbnb"],
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "globals": {
+    "JSX": "readonly"
+  },
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "quotes": [
+      2,
+      "single",
+      {
+        "avoidEscape": true
+      }
+    ],
+    "react/prop-types": "off",
+    "react/require-default-props": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/function-component-definition": "off",
+    "max-len": "off",
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "object-curly-newline": "off",
+    "no-underscore-dangle": "off",
+    "class-methods-use-this": "off",
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    "import/newline-after-import": "off",
+    "no-console": "off",
+    "no-useless-escape": "off",
+    "no-unused-vars": "off",
+    "max-classes-per-file": "off",
+    "consistent-return": "off",
+    "no-use-before-define": "off",
+    "no-param-reassign": "off",
+    "prefer-destructuring": "off",
+    "no-shadow": "off",
+    "eol-last": "error",
+    "quote-props": "off",
+    "no-restricted-exports": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
+    "react/jsx-filename-extension": [
+      2,
+      {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    ],
+    "react/jsx-props-no-spreading": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "jsx-quotes": [2, "prefer-single"],
+    "jsx-a11y/no-redundant-roles": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "react/no-danger": "off",
+    "react/jsx-no-useless-fragment": "off",
+    "no-nested-ternary": "off",
+    "react/jsx-tag-spacing": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/jsx-wrap-multilines": "off",
+    "react/jsx-closing-tag-location": "off",
+    "react/jsx-indent": "off"
+  }
+}

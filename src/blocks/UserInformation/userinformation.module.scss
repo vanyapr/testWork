@@ -1,0 +1,22 @@
+.table {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.tr {
+  &:nth-child(odd) {
+    background-color: #ddd;
+  }
+}
+
+.td {
+  border: 1px solid #ddd;
+  padding: 15px 5px;
+
+  &:first-child {
+    width: 180px;
+  }
+}
